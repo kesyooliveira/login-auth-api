@@ -1,0 +1,8 @@
+spring.application.name=login-auth-api
+
+spring.datasource.url=jdbc:postgresql://localhost:5432/login_page
+spring.datasource.username=yourUsername
+spring.datasource.password=yourPassword
+spring.jpa.hibernate.ddl-auto=update
+
+api.security.token.secret=yourSecretKey
